@@ -9,11 +9,11 @@ This website was built by:<br>
 <style>
 </style>
 <script>
- var p1();
- function myFunction() {
-    document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+ window.onclick = myFunction;
+
+function myFunction() {
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
 }
- p1();
 </script>
 </head>
 <body>
