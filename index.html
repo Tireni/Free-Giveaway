@@ -10,9 +10,9 @@ This website was built by:<br>
 </style>
 <script>
  var p1();
- function p1(){
-  document.getElementById("button").innerHTML = "New text!";
- }
+ function myFunction() {
+    document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+}
  p1();
 </script>
 </head>
@@ -22,7 +22,8 @@ This website was built by:<br>
 <input type="address" name="address" value="Adress"><br /> <br /> <br />
 <input type="email" name="email" value="Email"><br /> <br /> <br /> 
 <input type="item" name="item" value="Item"><br /> <br /> <br />
-<input type="submit" name="submit" value="SUBMIT DATA" onclick="p1()" id="button"><br /><br /><br />
+<p id="demo" onclick="myFunction()">Click me.</p>
+
  <h6 id="Head"></h6>
 <br /> <br /> <br />
 <textarea name="comment" form="usrform">Enter text here...</textarea><br />
