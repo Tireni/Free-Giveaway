@@ -8,16 +8,22 @@ This website was built by:<br>
 </br><br></br>
 <style>
 </style>
+
+</head>
+<body>
+ <p id="demo" onclick="myFunction()">Click me.</p>
+
 <script>
- window.onclick = myFunction;
+function myFunction() {
+    document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+}
+  window.onclick = myFunction;
 
 function myFunction() {
     document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
 }
 </script>
-</head>
-<body>
- <p></p>
+</script>
  <input type="name" name="usrname" value="Name" id="name"><br /> <br /> <br />
 <input type="address" name="address" value="Adress"><br /> <br /> <br />
 <input type="email" name="email" value="Email"><br /> <br /> <br /> 
